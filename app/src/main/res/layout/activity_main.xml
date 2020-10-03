@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/myTextview"
+            android:onClick="ucrop"
+            android:text="1.ucrop图片裁剪" />
+
+        <TextView
+            style="@style/myTextview"
+            android:onClick="statusBar"
+            android:text="2.StatusBar状态栏设置" />
+
+        <TextView
+            style="@style/myTextview"
+            android:onClick="network"
+            android:text="3.网络状态" />
+
+        <TextView
+            style="@style/myTextview"
+            android:onClick="keyboard"
+            android:text="4.软键盘" />
+
+        <TextView
+            style="@style/myTextview"
+            android:onClick="phone"
+            android:text="5.电话 短信" />
+
+        <TextView
+            style="@style/myTextview"
+            android:onClick="regex"
+            android:text="6.正则匹配" />
+
+        <TextView
+            style="@style/myTextview"
+            android:onClick="device"
+            android:text="7.设备信息" />
+
+        <TextView
+            style="@style/myTextview"
+            android:onClick="appInfo"
+            android:text="8. app信息 安装 卸载" />
+
+        <TextView
+            style="@style/myTextview"
+            android:onClick="flashlight"
+            android:text="9. 闪光灯" />
+
+        <TextView
+            style="@style/myTextview"
+            android:onClick="encode"
+            android:text="10. 字符编码" />
+
+        <TextView
+            style="@style/myTextview"
+            android:onClick="image"
+            android:text="11. 图片处理" />
+
+        <TextView
+            style="@style/myTextview"
+            android:onClick="language"
+            android:text="12. 语言" />
+
+        <TextView
+            style="@style/myTextview"
+            android:onClick="path"
+            android:text="13. 获取常用文件路径" />
+
+        <TextView
+            style="@style/myTextview"
+            android:onClick="gsonUtils"
+            android:text="14. gson" />
+
+        <TextView
+            style="@style/myTextview"
+            android:onClick="intentUtils"
+            android:text="15. 获取系统意图intent" />
+
+        <TextView
+            style="@style/myTextview"
+            android:onClick="notificationUtils"
+            android:text="16. Notification通知" />
+
+        <TextView
+            style="@style/myTextview"
+            android:onClick="snackbarUtils"
+            android:text="17. Snackbar" />
+
+        <TextView
+            style="@style/myTextview"
+            android:onClick="encryptUtils"
+            android:text="18. 加密" />
+
+    </LinearLayout>
+</ScrollView>

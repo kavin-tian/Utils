@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            style="@style/myButton"
+            android:onClick="encryptMD5ToString"
+            android:text="字符串 MD5 加密" />
+
+        <Button
+            style="@style/myButton"
+            android:onClick="encryptSHA1ToString"
+            android:text="字符串 SHA1 加密" />
+
+        <Button
+            style="@style/myButton"
+            android:onClick="encryptSHA256ToString"
+            android:text="字符串 SHA256 加密" />
+
+        <Button
+            style="@style/myButton"
+            android:onClick="encryptDES2HexString"
+            android:text="字符串 DES2HexString 加密" />
+
+        <Button
+            style="@style/myButton"
+            android:onClick="decryptHexStringDES"
+            android:text="字符串 HexStringDES 解密" />
+
+        <Button
+            style="@style/myButton"
+            android:onClick="encryptDES2Base64"
+            android:text="字符串 DES2Base64 加密" />
+
+        <Button
+            style="@style/myButton"
+            android:onClick="decryptBase64DES"
+            android:text="字符串 Base64DES 解密" />
+
+        <Button
+            style="@style/myButton"
+            android:onClick="encryptAES2HexString"
+            android:text="字符串 AES 加密" />
+
+        <Button
+            style="@style/myButton"
+            android:onClick="decryptHexStringAES"
+            android:text="字符串 AES 解密" />
+
+        <Button
+            style="@style/myButton"
+            android:onClick="encryptRSA2Base64"
+            android:text="字符串 RSA 加密" />
+
+        <Button
+            style="@style/myButton"
+            android:onClick="decryptBase64RSA"
+            android:text="字符串 RSA 解密" />
+
+    </LinearLayout>
+</ScrollView>

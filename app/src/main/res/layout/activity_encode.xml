@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="urlEncode"
+        android:text="URL 编码" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="urlDecode"
+        android:text="URL 解码" />
+
+    <!--<Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="base64Encode"
+        android:text="Base64 编码 转 byte[]" />-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="base64Encode2String"
+        android:text="Base64 编码" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="base64Decode"
+        android:text="Base64 解码" />
+
+    <!--<Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="htmlEncode"
+        android:text="Html 编码" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="htmlDecode"
+        android:text="Html 解码" />-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="binaryEncode"
+        android:text="二进制编码" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="binaryDecode"
+        android:text="二进制解码" />
+
+
+</LinearLayout>

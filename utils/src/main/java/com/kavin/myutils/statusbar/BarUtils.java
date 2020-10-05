@@ -31,12 +31,7 @@ import java.lang.reflect.Method;
 import static android.Manifest.permission.EXPAND_STATUS_BAR;
 
 /**
- * <pre>
- *     author: Blankj
- *     blog  : http://blankj.com
- *     time  : 2016/09/23
- *     desc  : utils about bar
- * </pre>
+ * 顶部 状态栏 StatusBar， 底部 虚拟按键导航栏 NavigationBar
  */
 public final class BarUtils {
 

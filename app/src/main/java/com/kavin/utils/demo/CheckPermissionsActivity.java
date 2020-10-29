@@ -3,6 +3,7 @@
  */
 package com.kavin.utils.demo;
 
+import android.Manifest;
 import android.annotation.TargetApi;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -58,6 +59,12 @@ public abstract class CheckPermissionsActivity extends AppCompatActivity {
      * @return
      */
     protected abstract ArrayList<String> addNeedPermissionList(ArrayList<String> permissions);
+
+   /* @Override
+    protected ArrayList<String> addNeedPermissionList(ArrayList<String> permissions) {
+        permissions.add(Manifest.permission.WRITE_EXTERNAL_STORAGE);
+        permissions.add(Manifest.permission.READ_EXTERNAL_STORAGE);
+        return permissions;*/
 
 
     /**
